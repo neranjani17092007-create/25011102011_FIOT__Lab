@@ -4,6 +4,14 @@
 
 Toggle P1.0 after 1000 Timer 0 interrupts.
 
+## Circuit diagram
+
+![Timer 0 interrupt LED blink — circuit connections](circuit.png)
+
+[Open or download circuit.png](circuit.png)
+
+This diagram follows the port assignments in `main.c`. It is a proposed pin-level connection diagram, not a verified record of the physical lab wiring. Board header numbers, component values and module variants must be checked against the hardware. The LED interface shown is a suitable non-inverting current driver for the code's active-HIGH LED interpretation; it does not establish that such a driver was used in the lab. `R*` denotes a current-limiting resistor whose value is unconfirmed.
+
 ## Source and hardware
 
 This description follows the committed [main.c](main.c). It describes expected behavior from source inspection, not a new hardware test. The code uses 8051 register definitions and Keil C51 interrupt syntax.

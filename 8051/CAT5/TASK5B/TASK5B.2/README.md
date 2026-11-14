@@ -4,6 +4,14 @@
 
 Toggle P1.1 on Timer 1 interrupts, with a helper for selecting reload values.
 
+## Circuit diagram
+
+![Timer 1 square-wave output — circuit connections](circuit.png)
+
+[Open or download circuit.png](circuit.png)
+
+This diagram follows the port assignments in `main.c`. It is a proposed pin-level connection diagram, not a verified record of the physical lab wiring. Board header numbers, component values and module variants must be checked against the hardware.
+
 ## Source and hardware
 
 This description follows the committed [main.c](main.c). It describes expected behavior from source inspection, not a new hardware test. The code uses 8051 register definitions and Keil C51 interrupt syntax.

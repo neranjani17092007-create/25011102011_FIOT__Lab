@@ -4,6 +4,14 @@
 
 Select a step interval using keys 1–3 while Timer 0 advances a one-coil sequence.
 
+## Circuit diagram
+
+![Keypad-controlled stepper sequence — circuit connections](circuit.png)
+
+[Open or download circuit.png](circuit.png)
+
+This diagram follows the port assignments in `main.c`. It is a proposed pin-level connection diagram, not a verified record of the physical lab wiring. Board header numbers, component values and module variants must be checked against the hardware. The motor block is functional: choose the driver, phase connections, winding supply and protection for the actual motor type.
+
 ## Source and hardware
 
 This description follows the committed [main.c](main.c). It describes expected behavior from source inspection, not a new hardware test. The code uses 8051 register definitions and Keil C51 interrupt syntax.

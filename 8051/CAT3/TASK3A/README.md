@@ -4,6 +4,14 @@
 
 Select four LED patterns with an active-LOW push button and interrupt-assisted software debouncing.
 
+## Circuit diagram
+
+![Button-selected LED patterns — circuit connections](circuit.png)
+
+[Open or download circuit.png](circuit.png)
+
+This diagram follows the port assignments in `main.c`. It is a proposed pin-level connection diagram, not a verified record of the physical lab wiring. Board header numbers, component values and module variants must be checked against the hardware. The LED interface shown is a suitable non-inverting current driver for the code's active-HIGH LED interpretation; it does not establish that such a driver was used in the lab. `R*` denotes a current-limiting resistor whose value is unconfirmed. The button connects P3.2 to ground when pressed; the pull-up may be provided by the board or an external resistor.
+
 ## Source and hardware
 
 This description follows the committed [main.c](main.c). It describes expected behavior from source inspection, not a new hardware test. The code uses 8051 register definitions and Keil C51 interrupt syntax.
