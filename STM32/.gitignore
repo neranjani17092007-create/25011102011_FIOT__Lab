@@ -1,0 +1,39 @@
+# STM32 projects only. Existing tracked files are not removed by ignore rules.
+# Keil generated listing/object directories
+**/Listings/
+**/Objects/
+
+# Compiler/linker intermediates and logs
+*.o
+*.obj
+*.d
+*.dep
+*.crf
+*.axf
+*.elf
+*.map
+*.lst
+*.lnp
+*.htm.build_log
+*.build_log.htm
+*.tra
+*.iex
+*.sfr
+
+# Per-user Keil state
+*.uvguix.*
+*.uvgui.*
+*.uvoptx
+*.uvopt
+
+# Local editor and operating-system metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*~
+
+# Deliberately keep .ioc, .mxproject, .uvprojx, startup/scatter files,
+# HAL/CMSIS sources and libraries, and documentation. HEX/BIN files outside ignored build directories remain eligible.
