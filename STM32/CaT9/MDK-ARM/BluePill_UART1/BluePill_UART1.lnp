@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"bluepill_uart1\startup_stm32f103xb.o"
+"bluepill_uart1\main.o"
+"bluepill_uart1\stm32f1xx_it.o"
+"bluepill_uart1\stm32f1xx_hal_msp.o"
+"bluepill_uart1\stm32f1xx_hal_gpio_ex.o"
+"bluepill_uart1\stm32f1xx_hal_uart.o"
+"bluepill_uart1\stm32f1xx_hal.o"
+"bluepill_uart1\stm32f1xx_hal_rcc.o"
+"bluepill_uart1\stm32f1xx_hal_rcc_ex.o"
+"bluepill_uart1\stm32f1xx_hal_gpio.o"
+"bluepill_uart1\stm32f1xx_hal_dma.o"
+"bluepill_uart1\stm32f1xx_hal_cortex.o"
+"bluepill_uart1\stm32f1xx_hal_pwr.o"
+"bluepill_uart1\stm32f1xx_hal_flash.o"
+"bluepill_uart1\stm32f1xx_hal_flash_ex.o"
+"bluepill_uart1\stm32f1xx_hal_exti.o"
+"bluepill_uart1\system_stm32f1xx.o"
+--strict --scatter "BluePill_UART1\BluePill_UART1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BluePill_UART1.map" -o BluePill_UART1\BluePill_UART1.axf

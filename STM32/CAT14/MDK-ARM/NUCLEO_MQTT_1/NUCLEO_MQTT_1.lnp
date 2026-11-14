@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"nucleo_mqtt_1\startup_stm32f401xe.o"
+"nucleo_mqtt_1\esplib.o"
+"nucleo_mqtt_1\bme280.o"
+"nucleo_mqtt_1\main.o"
+"nucleo_mqtt_1\stm32f4xx_it.o"
+"nucleo_mqtt_1\stm32f4xx_hal_msp.o"
+"nucleo_mqtt_1\stm32f4xx_hal_i2c.o"
+"nucleo_mqtt_1\stm32f4xx_hal_i2c_ex.o"
+"nucleo_mqtt_1\stm32f4xx_hal_rcc.o"
+"nucleo_mqtt_1\stm32f4xx_hal_rcc_ex.o"
+"nucleo_mqtt_1\stm32f4xx_hal_flash.o"
+"nucleo_mqtt_1\stm32f4xx_hal_flash_ex.o"
+"nucleo_mqtt_1\stm32f4xx_hal_flash_ramfunc.o"
+"nucleo_mqtt_1\stm32f4xx_hal_gpio.o"
+"nucleo_mqtt_1\stm32f4xx_hal_dma_ex.o"
+"nucleo_mqtt_1\stm32f4xx_hal_dma.o"
+"nucleo_mqtt_1\stm32f4xx_hal_pwr.o"
+"nucleo_mqtt_1\stm32f4xx_hal_pwr_ex.o"
+"nucleo_mqtt_1\stm32f4xx_hal_cortex.o"
+"nucleo_mqtt_1\stm32f4xx_hal.o"
+"nucleo_mqtt_1\stm32f4xx_hal_exti.o"
+"nucleo_mqtt_1\stm32f4xx_hal_uart.o"
+"nucleo_mqtt_1\system_stm32f4xx.o"
+--strict --scatter "NUCLEO_MQTT_1\NUCLEO_MQTT_1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "NUCLEO_MQTT_1.map" -o NUCLEO_MQTT_1\NUCLEO_MQTT_1.axf

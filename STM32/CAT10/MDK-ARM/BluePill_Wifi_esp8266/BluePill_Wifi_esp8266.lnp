@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"bluepill_wifi_esp8266\startup_stm32f103xb.o"
+"bluepill_wifi_esp8266\main.o"
+"bluepill_wifi_esp8266\stm32f1xx_it.o"
+"bluepill_wifi_esp8266\stm32f1xx_hal_msp.o"
+"bluepill_wifi_esp8266\stm32f1xx_hal_gpio_ex.o"
+"bluepill_wifi_esp8266\stm32f1xx_hal_uart.o"
+"bluepill_wifi_esp8266\stm32f1xx_hal.o"
+"bluepill_wifi_esp8266\stm32f1xx_hal_rcc.o"
+"bluepill_wifi_esp8266\stm32f1xx_hal_rcc_ex.o"
+"bluepill_wifi_esp8266\stm32f1xx_hal_gpio.o"
+"bluepill_wifi_esp8266\stm32f1xx_hal_dma.o"
+"bluepill_wifi_esp8266\stm32f1xx_hal_cortex.o"
+"bluepill_wifi_esp8266\stm32f1xx_hal_pwr.o"
+"bluepill_wifi_esp8266\stm32f1xx_hal_flash.o"
+"bluepill_wifi_esp8266\stm32f1xx_hal_flash_ex.o"
+"bluepill_wifi_esp8266\stm32f1xx_hal_exti.o"
+"bluepill_wifi_esp8266\system_stm32f1xx.o"
+--strict --scatter "BluePill_Wifi_esp8266\BluePill_Wifi_esp8266.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BluePill_Wifi_esp8266.map" -o BluePill_Wifi_esp8266\BluePill_Wifi_esp8266.axf
