@@ -1,4 +1,4 @@
-# STM32 projects only. Existing tracked files are not removed by ignore rules.
+# Repository-wide ignore rules. Existing tracked files are not removed by ignore rules.
 # Keil generated listing/object directories
 **/Listings/
 **/Objects/
