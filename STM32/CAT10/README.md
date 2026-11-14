@@ -36,11 +36,16 @@ After a 2-second wait the code clears the USART2 overrun flag, prints a startup 
 
 ## 6. Circuit and Pin Reference
 
-Circuit PNG upload pending. Use the verified pin table above.
+![CAT10 circuit and system connections](circuit.png)
+
+[Open circuit diagram](circuit.png)
 
 System clock: Internal HSI 8 MHz; PLL disabled.
 
 ## 7. Links to Artifacts and Detailed Documentation
+
+- [Circuit Diagram](circuit.png)
+- [Firmware Flowchart](project_files/flowchart.png)
 
 - [Detailed Project Engineering Report](project_files/README.md)
 - [Primary Application Source](project_files/Core/Src/main.c)

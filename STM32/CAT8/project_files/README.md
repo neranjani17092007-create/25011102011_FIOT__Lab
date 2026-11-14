@@ -37,7 +37,9 @@ The connections are derived from the source and configuration, rather than a pho
 
 ## 7. Circuit Diagram
 
-Circuit PNG upload pending. Use the pin table above.
+![CAT8 circuit and system connections](circuit.png)
+
+[Open circuit diagram](circuit.png)
 
 
 
@@ -86,7 +88,7 @@ Read [main.c](Core/Src/main.c) for the complete implementation.
 
 ## 13. Flowchart
 
-Flowchart PNG upload pending. Refer to the algorithm and pseudocode above.
+![CAT8 firmware flow](flowchart.png)
 
 ## 14. Expected Output
 

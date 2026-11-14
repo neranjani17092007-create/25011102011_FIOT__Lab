@@ -35,11 +35,16 @@ At startup the program prints HELLO and WORLD, waits 3 seconds, and prints the c
 
 ## 6. Circuit and Pin Reference
 
-Circuit PNG upload pending. Use the verified pin table above.
+![CAT9 circuit and system connections](circuit.png)
+
+[Open circuit diagram](circuit.png)
 
 System clock: Internal HSI 8 MHz; PLL disabled; AHB/APB1/APB2 undivided.
 
 ## 7. Links to Artifacts and Detailed Documentation
+
+- [Circuit Diagram](circuit.png)
+- [Firmware Flowchart](project_files/flowchart.png)
 
 - [Detailed Project Engineering Report](project_files/README.md)
 - [Primary Application Source](project_files/Core/Src/main.c)

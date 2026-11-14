@@ -33,11 +33,16 @@ Each slow iteration toggles PA5 and delays 1000 ms; six iterations follow. HAL_D
 
 ## 6. Circuit and Pin Reference
 
-Circuit PNG upload pending. Use the verified pin table above.
+![CAT12 circuit and system connections](circuit.png)
+
+[Open circuit diagram](circuit.png)
 
 System clock: HSI 16 MHz through PLL M=16, N=336, P=4 gives 84 MHz; APB1 42 MHz, APB2 84 MHz.
 
 ## 7. Links to Artifacts and Detailed Documentation
+
+- [Circuit Diagram](circuit.png)
+- [Firmware Flowchart](project_files/flowchart.png)
 
 - [Detailed Project Engineering Report](project_files/README.md)
 - [Primary Application Source](project_files/Core/Src/main.c)

@@ -37,11 +37,16 @@ The STM32 probes sensor addresses but selects 0x76, configures normal mode, and 
 
 ## 6. Circuit and Pin Reference
 
-Circuit PNG upload pending. Use the verified pin table above.
+![CAT15 circuit and system connections](circuit.png)
+
+[Open circuit diagram](circuit.png)
 
 System clock: HSI-derived 84 MHz PLL clock; APB1 42 MHz and APB2 84 MHz.
 
 ## 7. Links to Artifacts and Detailed Documentation
+
+- [Circuit Diagram](circuit.png)
+- [Firmware Flowchart](project_files/flowchart.png)
 
 - [Detailed Project Engineering Report](project_files/README.md)
 - [Primary Application Source](project_files/Core/Src/main.c)
